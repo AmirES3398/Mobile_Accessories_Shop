@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Shabnam";
+    src: url(./32_ExplainPractice-1/fonts/Shabnam-FD.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Shabnam", sans-serif;
+    background-color: #FAFAFA;
+}
+
+.container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    background-color: #FAFAFA;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.box-right {
+    display: flex;
+    width: 58px;
+    height: 32px;
+    justify-content: space-between;
+}
+
+.Icon_box-right {
+    width: 30px;
+    height: 26px;
+    color: #03A9F4;
+    margin-top: 4px;
+    padding-bottom: 10px;
+}
+
+.Text_box-right {
+    width: 32px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 2px;
+    padding-bottom: 10px;
+} 
+
+.Text_box-left {
+    width: 32px;
+    height: 20px;
+    font-size: 14px;
+    color: #03A9F4;
+    white-space: nowrap;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Product {
+    background-color: #fff;
+    box-shadow: 0 0px 20px rgba(121, 119, 119, 0.2);
+    width: 230px;
+    height: 246px;
+}
+
+.Img-Product {
+    width: 190px;
+    height: 100px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.Name-Product {
+    font-size: 11px;
+    color: #424242;
+    padding-left: 10px;
+    padding-right: 16px;
+    margin-top: 8px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+
+
+.Off-Product {
+    color: #0288D1;
+    background-color: #E1F5FE;
+    margin-right: 16px;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+
+.Old_Price-Product {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.Rate_Price-Product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.New_Price-Product {
+    color: gray;
+    margin-right: 16px;
+    font-size: 12px;
+}
+
+.New_Price {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.Rate-Product {
+    display: flex;
+    width: 48px;
+    margin-left: 6px;
+}
+
+.Icon_Rate-Product {
+    color: #FBC02D;
+    width: 18px;
+    height: 14px;
+    margin-top: 3px;
+}
+
+.Num_Rate-Product {
+    color: gray;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.Name-Product-Problem {
+    font-size: 11px;
+    color: #424242;
+    padding-left: 10px;
+    padding-right: 16px;
+    margin-top: 8px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
