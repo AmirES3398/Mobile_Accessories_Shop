@@ -26,7 +26,7 @@ Mobile_Accessories_Shop/ │ ├── Mobile-Accessories-Shop.html ├── Mo
 ---
 
 ## 👀 Preview
-*(Add a screenshot of your project here later)*
+![Project Preview](images/preview.png)
 
 ---
 
